@@ -1,0 +1,11 @@
+{
+  "headline": "seq",
+  "scheme": "quarterly rolling-origin re-training (each quarter forecast by a model trained only on earlier data, with the preceding 12 months used for early stopping)",
+  "demo": false,
+  "val_scores": {
+    "linear": 382.1925666598148,
+    "mlp": 329.33561792945557,
+    "seq": 327.6870968722759,
+    "mlp_oracle": 298.40143664949255
+  }
+}

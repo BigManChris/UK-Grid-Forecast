@@ -1,0 +1,11 @@
+# downloaded data (re-created by `python run.py`)
+data/
+# large prediction dump
+results/test_predictions.csv.gz
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
